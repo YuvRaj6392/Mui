@@ -1,8 +1,8 @@
 import React from 'react'
-import { Grid,Box } from '@mui/material'
+import { Grid,Box, Paper } from '@mui/material'
 export default function MuiGrid() {
   return (
-    <div>
+    <Paper sx={{padding:"20px"}} elevation={10}>
         <Grid container>
             <Grid item xs={6}>
                 <Box bgcolor="primary.light" style={{padding:"10px"}} >
@@ -25,6 +25,6 @@ export default function MuiGrid() {
                 </Box>
             </Grid>
         </Grid>
-    </div>
+    </Paper>
   )
 }

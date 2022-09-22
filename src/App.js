@@ -12,6 +12,7 @@ import MuiAutocomplete from './components/MuiAutocomplete';
 import MuiBox from './components/MuiBox';
 import MuiStack from './components/MuiStack';
 import MuiGrid from './components/MuiGrid';
+import MuiCard from './components/MuiCard';
 function App() {
   return (
     <div style={{marginBottom:"100px",marginTop:"50px"}}>
@@ -28,6 +29,7 @@ function App() {
     <MuiBox />
     <MuiStack />
     <MuiGrid />
+    <MuiCard />
     </div>
   );
 }
