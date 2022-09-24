@@ -13,6 +13,7 @@ import MuiBox from './components/MuiBox';
 import MuiStack from './components/MuiStack';
 import MuiGrid from './components/MuiGrid';
 import MuiCard from './components/MuiCard';
+import MuiAccordion from './components/MuiAccordion';
 function App() {
   return (
     <div style={{marginBottom:"100px",marginTop:"50px"}}>
@@ -30,6 +31,8 @@ function App() {
     <MuiStack />
     <MuiGrid />
     <MuiCard />
+    <MuiAccordion />
+    {/* ImageListItemBar is really important */}
     </div>
   );
 }
