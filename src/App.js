@@ -14,6 +14,7 @@ import MuiStack from './components/MuiStack';
 import MuiGrid from './components/MuiGrid';
 import MuiCard from './components/MuiCard';
 import MuiAccordion from './components/MuiAccordion';
+import MuiNavbar from './components/MuiNavbar';
 function App() {
   return (
     <div style={{marginBottom:"100px",marginTop:"50px"}}>
@@ -33,6 +34,7 @@ function App() {
     <MuiCard />
     <MuiAccordion />
     {/* ImageListItemBar is really important */}
+    <MuiNavbar />
     </div>
   );
 }
