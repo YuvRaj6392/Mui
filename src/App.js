@@ -17,6 +17,8 @@ import MuiAccordion from './components/MuiAccordion';
 import MuiNavbar from './components/MuiNavbar';
 import MuiLink from './components/MuiLink';
 import MuiBreadCrums from './components/MuiBreadCrums';
+import MuiDrawer from './components/MuiDrawer';
+import MuiSpeedDial from './components/MuiSpeedDial';
 function App() {
   return (
     <div style={{marginBottom:"100px",marginTop:"50px"}}>
@@ -39,6 +41,8 @@ function App() {
     <MuiNavbar />
     <MuiLink />
     <MuiBreadCrums />
+    <MuiDrawer />
+    <MuiSpeedDial />
     </div>
   );
 }
