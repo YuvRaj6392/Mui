@@ -5,7 +5,7 @@ import PrintIcon from '@mui/icons-material/Print'
 import ShareIcon from '@mui/icons-material/Share'
 export default function MuiSpeedDial() {
   return (
-  <SpeedDial ariaLabel='navigation speed dial' sx={{position:'absolute',bottom:'16',right:'16'}} icon={<SpeedDialIcon />} >
+  <SpeedDial ariaLabel='navigation speed dial' sx={{position:'absolute',bottom:'16',right:'0'}} icon={<SpeedDialIcon />} >
     <SpeedDialAction  icon={<CopyIcon />} tooltipTitle='Copy'  />
     <SpeedDialAction  icon={<PrintIcon />} tooltipTitle='Print'  />
     <SpeedDialAction  icon={<ShareIcon />} tooltipTitle='Share'  />

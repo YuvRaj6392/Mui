@@ -21,6 +21,8 @@ import MuiDrawer from './components/MuiDrawer';
 import MuiSpeedDial from './components/MuiSpeedDial';
 import MuiBottomNavigation from './components/MuiBottomNavigation';
 import MuiAvatar from './components/MuiAvatar';
+import MuiBadge from './components/MuiBadge';
+import MuiList from './components/MuiList';
 function App() {
   return (
     <div style={{marginBottom:"100px",marginTop:"50px"}}>
@@ -47,6 +49,8 @@ function App() {
     <MuiSpeedDial />
     <MuiBottomNavigation />
     <MuiAvatar />
+    <MuiBadge />
+    <MuiList />
     </div>
   );
 }
