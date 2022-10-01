@@ -23,6 +23,8 @@ import MuiBottomNavigation from './components/MuiBottomNavigation';
 import MuiAvatar from './components/MuiAvatar';
 import MuiBadge from './components/MuiBadge';
 import MuiList from './components/MuiList';
+import MuiChips from './components/MuiChips'
+import MuiToolTip from './components/MuiToolTip';
 function App() {
   return (
     <div style={{marginBottom:"100px",marginTop:"50px"}}>
@@ -51,6 +53,8 @@ function App() {
     <MuiAvatar />
     <MuiBadge />
     <MuiList />
+    <MuiChips />
+    <MuiToolTip />
     </div>
   );
 }
