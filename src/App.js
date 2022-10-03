@@ -25,6 +25,8 @@ import MuiBadge from './components/MuiBadge';
 import MuiList from './components/MuiList';
 import MuiChips from './components/MuiChips'
 import MuiToolTip from './components/MuiToolTip';
+import MuiTable from './components/MuiTable';
+import MuiAlert from './components/MuiAlert';
 function App() {
   return (
     <div style={{marginBottom:"100px",marginTop:"50px"}}>
@@ -55,6 +57,8 @@ function App() {
     <MuiList />
     <MuiChips />
     <MuiToolTip />
+    <MuiTable />
+    <MuiAlert />
     </div>
   );
 }
