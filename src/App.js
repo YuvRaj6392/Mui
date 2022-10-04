@@ -27,6 +27,8 @@ import MuiChips from './components/MuiChips'
 import MuiToolTip from './components/MuiToolTip';
 import MuiTable from './components/MuiTable';
 import MuiAlert from './components/MuiAlert';
+import MuiSnackBar from './components/MuiSnackBar';
+import MuiDialog from './components/MuiDialog';
 function App() {
   return (
     <div style={{marginBottom:"100px",marginTop:"50px"}}>
@@ -59,6 +61,8 @@ function App() {
     <MuiToolTip />
     <MuiTable />
     <MuiAlert />
+    <MuiSnackBar />
+    <MuiDialog />
     </div>
   );
 }
