@@ -10,12 +10,7 @@ export default function MuiSkeleton() {
         }, 3000);
     })
   return (
-    // <Stack spacing={1} width={250}>
-    // <Skeleton animation='wave' />
-    // <Skeleton variant='circular' height={40} width={40} />
-    // <Skeleton variant='rectangular' height={100} width={200} />
-
-    // </Stack>
+   
     <Box width={250} style={{marginTop:'20px'}}>
     {
         loading ? <Skeleton variant='rectangular' width={256} height={144} animation='wave' /> : <img src='https://images.unsplash.com/photo-1664915933754-5d24b1e81432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60' alt='imag'  width={256} height={144} />
