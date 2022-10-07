@@ -1,5 +1,5 @@
 import React from 'react'
-import {Stack, TextField, InputAdornment} from '@mui/material'
+import {Stack, TextField} from '@mui/material'
 
 export default function MuiTextField() {
   return (

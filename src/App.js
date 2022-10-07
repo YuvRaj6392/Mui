@@ -32,6 +32,7 @@ import MuiDialog from './components/MuiDialog';
 import MuiProgress from './components/MuiProgress';
 import MuiSkeleton from './components/MuiSkeleton';
 import MuiLoading from './components/MuiLoading';
+import MuiTabs from './components/MuiTabs';
 function App() {
   return (
     <div style={{marginBottom:"100px",marginTop:"50px"}}>
@@ -69,7 +70,7 @@ function App() {
     <MuiDialog />
     <MuiProgress />
     <MuiLoading /> 
-
+    <MuiTabs />
     
     </div>
   );
