@@ -35,6 +35,7 @@ import MuiLoading from './components/MuiLoading';
 import MuiTabs from './components/MuiTabs';
 import MuiTimeline from './components/MuiTimeline';
 import MuiMasonry from './components/MuiMasonry';
+import MuiResponsivenss from './components/MuiResponsivenss';
 function App() {
   return (
     <div style={{marginBottom:"100px",marginTop:"50px"}}>
@@ -75,7 +76,7 @@ function App() {
     <MuiTabs />
     <MuiTimeline />
     <MuiMasonry />
-    
+    <MuiResponsivenss />
     </div>
   );
 }
